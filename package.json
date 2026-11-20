@@ -4,14 +4,17 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "dev": "vite",
     "build": "vite build",
-    "start": "vite --host 0.0.0.0"
+    "start": "vite --host 0.0.0.0",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
+    "axios": "latest",
+    "bootstrap": "latest",
     "vite": "latest",
     "react": "latest",
     "react-dom": "latest"
-  },
-  "devDependencies": {}
+  }
 }
